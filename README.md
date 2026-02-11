@@ -64,5 +64,90 @@ Backend verifies token using authentication middleware.
 ✅ Delete Task
 ✅ Search Tasks
 ✅ Filter by Status
+
+Perfect 👍
+I’ll give you clean copy-paste setup instructions that you can directly put into your README.
+
+Just copy everything below 👇
+
+⚙️ Setup Instructions
+📦 1. Clone the Repository
+git clone <YOUR_GITHUB_REPO_LINK>
+cd frontend-developer-task
+
+🖥️ 2. Backend Setup
+Step 1: Navigate to backend folder
+cd backend
+
+Step 2: Install dependencies
+npm install
+
+Step 3: Create a .env file inside the backend folder
+
+Create a file named:
+
+.env
+
+
+Add the following:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+Step 4: Start backend server
+npx nodemon server.js
+
+
+If successful, you should see:
+
+MongoDB connected
+Server is running on port 5000
+
+
+Backend runs on:
+
+http://localhost:5000
+
+🌐 3. Frontend Setup
+
+Open a new terminal.
+
+Step 1: Navigate to frontend folder
+cd frontend/vite-project
+
+Step 2: Install dependencies
+npm install
+
+Step 3: Start development server
+npm run dev
+
+
+Frontend runs on:
+
+http://localhost:5173
+
+🔐 4. Usage Flow
+
+Register a new user
+
+Login using credentials
+
+Access dashboard
+
+Create, update, delete tasks
+
+Use search and filter options
+
+Logout securely
+
+🛠 Requirements
+
+Make sure you have installed:
+
+Node.js (v18 or higher recommended)
+
+npm
+
+MongoDB Atlas account (or local MongoDB)
 ✅ Logout Functionality
 ✅ Modular Backend Structure
